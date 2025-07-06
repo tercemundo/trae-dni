@@ -62,7 +62,7 @@ def consultar_cuit(numero):
 def main():
     if len(sys.argv) < 3:
         print("Uso: python cuit_scraper.py <inicio> <fin>")
-        print("Ejemplo: python cuit_scraper.py 25070170 25070180")
+        print("Ejemplo: python cuit_scraper.py 35070300 35070380")
         sys.exit(1)
     
     try:
